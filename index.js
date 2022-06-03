@@ -14,7 +14,7 @@ const SingleCased = [
     "dots",
 ]
 
-if (Query) {
+if (Query && FontStyle) {
     for (var i = 0; i < Query.length; i++) {
         var CharacterElement = ASCIIOutput.appendChild(document.createElement("div"));
         CharacterElement.style.display = "inline-block";
