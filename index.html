@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII Art</title>
+    
+    <style>
+        body, html {
+            padding: 0;
+            margin: 0;
+            font-family: "Trebuchet MS", sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form action="./index.html">
+        
+        <input name="q" type="text" placeholder="Your text goes here">
+
+        <select name="font">
+            <option value="simple">Simple</option>
+            <option value="dots">Dots</option>
+            <option value="bordered">Bordered</option>
+        </select>
+
+        <input type="submit" value="Submit">
+    </form>
+
+    <div style="margin: 2em;" id="ascii-output"></div>
+
+    <script type="module" src="./index.js"></script>
+</body>
+</html>
