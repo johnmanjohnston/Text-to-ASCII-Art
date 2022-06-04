@@ -1,4 +1,4 @@
-# ascii-art
+# Text to ASCII Art
 
 Converts text into ASCII art
 
